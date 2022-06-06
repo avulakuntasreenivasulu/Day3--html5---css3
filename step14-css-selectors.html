@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  /* div{
+        background-color: aqua;
+        padding: 10px;
+
+    }
+    p{
+        background-color: aqua;
+        padding: 10px;
+        
+    }
+    //class element//
+    .box{
+        background-color: aqua;
+        padding: 10px;
+    }
+    // id element//
+    #player{
+        background-color: aqua;
+        padding: 10px;
+    }
+    // decendent element//
+ div span{
+    border: 2px solid salmon;
+    padding: 5px;
+}
+div :hover{
+    background-color: yellowgreen;
+}
+a{
+    background-color:yellow;
+}
+a:link{
+    background-color: lightpink;
+}
+a:visited{
+    background-color: orange;
+}*/
+p::first-letter{
+    background-color: orangered;
+    color: papayawhip;
+    padding: 10px;
+}
+p::first-line{
+    background-color: orangered;
+    color: papayawhip;
+    padding: 10px;
+}
+li:before{
+    content: 'link:';
+    background-color: orange;
+    color: papayawhip;
+}
+li:after{
+    content: '<< ';
+    background-color: green;
+    color: papayawhip;
+}
+
+</style>
+<body>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+    <a>Navya</a><br><br>
+
+    <a href="#">dummy link</a><br>
+    <a href="#">dummy link</a><br>
+    <a href="#">Navya</a><br>
+    <a href="https://www.google.com/search?q=facebook.com&rlz=1C1RXQR_enIN1008IN1008&oq=fac&aqs=chrome.1.0i131i433i512j69i59j69i57j0i131i433i512j0i433i512j0i131i433i457i512j0i402l2j0i512l2.3921j0j9&sourceid=chrome&ie=UTF-8">Navya</a><br>
+    <div class="box">
+       
+        First Div
+        <br><br>
+        <nav>
+            Lorem ipsum dolor, sit amet<span>navya</span> consectetur adipisicing elit. Provident magnam, eligendi animi quas reiciendis vero quaerat? Culpa explicabo saepe dolore consequatur molestiae, unde in iusto, id enim vel porro optio.
+        </nav>
+        Lorem ipsum dolor sit amet<span>navya</span> consectetur adipisicing elit. Quis nemo assumenda aperiam ullam facilis? Molestiae repellendus eius, recusandae optio animi ratione accusamus facere id reiciendis doloremque numquam accusantium repudiandae ad?
+
+    </div>
+    <div id="player"><br>
+        Second Div
+       <br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nemo assumenda aperiam ullam facilis? Molestiae repellendus eius, recusandae optio animi ratione accusamus facere id reiciendis doloremque numquam accusantium repudiandae ad?
+
+    </div>
+    <div class="box"><br>
+        Third Div
+        <br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nemo assumenda aperiam ullam facilis? Molestiae repellendus eius, recusandae optio animi ratione accusamus facere id reiciendis doloremque numquam accusantium repudiandae ad?
+
+    </div>
+    <p class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit neque quas labore, nostrum maxime optio amet rerum dolorum laboriosam corrupti quod molestias omnis quibusdam debitis a, aperiam, libero modi tenetur!
+
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit neque quas labore, nostrum maxime optio amet rerum dolorum laboriosam corrupti quod molestias omnis quibusdam debitis a, aperiam, libero modi tenetur!
+
+    </p>
+    <section>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis ullam aperiam amet sapiente nisi corporis fuga voluptatem corrupti repellendus id? Iste itaque soluta repellat quos perferendis recusandae, quam magnam quidem.
+
+    </section>
+    <article>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, nesciunt doloremque rem a dignissimos, deleniti voluptate incidunt natus eaque eum dolorum sequi ipsum fuga minima nihil? Alias aperiam quae neque.
+
+    </article>
+    <span>span 1
+
+    </span>
+
+    
+</body>
+</html>
