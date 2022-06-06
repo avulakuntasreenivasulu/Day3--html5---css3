@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section{
+        border: 2px solid red;
+    }
+    article{
+        width: 250px;
+        height: 250px;
+        background-color: chocolate;
+        text-align: justify;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+</style>
+<body>
+    <section>
+        <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempora deleniti suscipit quaerat quo optio nostrum vitae voluptatibus, enim eligendi harum magnam culpa voluptas minima ducimus sit ipsa voluptates nobis.
+
+        </article>
+    </section>
+</body>
+</html>
