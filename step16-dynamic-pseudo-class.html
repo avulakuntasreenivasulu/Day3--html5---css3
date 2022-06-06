@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*dynamic-psudo class selectors */
+    
+    /*input:hover{
+        background-color: brown;
+    }
+    input:focus{
+        background-color: green;
+    }
+    input:active{
+        background-color: blueviolet;
+    }
+    p:lang(es){
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p:lang(en){
+        font-family: monospace;
+    }
+    p:lang(fr){
+       font-family: sans-serif;
+    }*/
+    /adjacent sibling  and general sibling selector/
+    ul+p{
+        border: 5px dotted orangered;
+    }
+    ul~p{
+        border: 5px dotted orangered;
+}
+</style>
+<body>
+    
+    <input type="text"><br><br>
+    <input type="text"><br><br>
+    <input type="text"><br><br>
+
+    <p lang="en">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio commodi repellendus illum harum natus odio atque delectus totam tempora molestiae esse, accusantium quas? Mollitia iste ipsa corporis tenetur iusto provident!
+
+    </p>
+    <p lang="es">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio commodi repellendus illum harum natus odio atque delectus totam tempora molestiae esse, accusantium quas? Mollitia iste ipsa corporis tenetur iusto provident!
+
+    </p>
+    <p lang="fr">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio commodi repellendus illum harum natus odio atque delectus totam tempora molestiae esse, accusantium quas? Mollitia iste ipsa corporis tenetur iusto provident!
+
+    </p>
+    <ul>
+        <li>list 1</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quae cupiditate iure aut. Culpa molestiae a architecto sint, dolore excepturi rem dicta tenetur velit! Vel harum aperiam sapiente ea excepturi.
+
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quae cupiditate iure aut. Culpa molestiae a architecto sint, dolore excepturi rem dicta tenetur velit! Vel harum aperiam sapiente ea excepturi.
+
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quae cupiditate iure aut. Culpa molestiae a architecto sint, dolore excepturi rem dicta tenetur velit! Vel harum aperiam sapiente ea excepturi.
+
+    </p>
+
+</body>
+</html>
